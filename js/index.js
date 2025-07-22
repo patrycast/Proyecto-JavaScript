@@ -118,9 +118,7 @@ const switchMenu = () => {
     menu.classList.toggle("open-menu");
     if (cartModal.classList.contains("open-cart")) {
         cartModal.classList.remove("open-cart");
-        // return;
     }
-    overlay.classList.toggle("overlayActive")
 }
 
 
@@ -129,7 +127,6 @@ const switchCart = () => {
     cartModal.classList.toggle("open-cart");
     if (menu.classList.contains("open-menu")) {
         menu.classList.remove("open-menu"); 
-        // return;
     }
     overlay.classList.toggle("overlayActive")
 
@@ -144,7 +141,7 @@ const closeMenuCart= ()=>{
 }
 
 
-//logica carrito      <div class="prod-info">    </div>
+//logica carrito     
 const createCartHTML=(cartProduct) =>{
     const {id, name, price, img, quantity} =cartProduct
     return `
