@@ -14,7 +14,6 @@
     --color_negro: #000000;
     --color_gris: #9D8875;
     --color_gris-oscuro: #42403f;
-
     --color_marron: #81440E;
     --parrafo: 21px;
     --enlace_header: 22px;
@@ -34,7 +33,6 @@ html {
 }
 
 section{
-    background: linear-gradient(#200122, #6f0000);
     background: linear-gradient(90deg, #6f0000 0%, rgba(253,29,29,1) 11%, rgba(103,48,11,1) 100%);
 }
 
@@ -261,7 +259,6 @@ header{
     left: 0;
     width: 100%;
     height: calc(100vh - 65px); 
-    background: rgba(64, 57, 57, 0.02);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.27);
     background: rgba(0, 0, 0, 0.6);
     z-index: 99; 
@@ -383,7 +380,6 @@ to {
 
 .portada__texto:hover{
     border:3px solid rgb(243, 84, 84);
-    text-shadow: 2px 2px 4px #080101;
     text-shadow: 2px 2px 4px 4px #080101;
     background-color: #f7f5f53b;
     transition-duration: 1s;
@@ -528,7 +524,6 @@ color: var(--color_blanco);
     background-color:rgba(255, 255, 255, 0.085);
 }
 .card__muebles{  
-    border: 2px solid rgba(255, 119, 0, 0.395);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -642,7 +637,6 @@ color: var(--color_blanco);
 /* contacto */
 .contacto{
     max-width: 1200px;
-    height:600px;
     background-image: url("./img/portada-bg.jpg");
     filter: brightness(80%);
     background-repeat: no-repeat;
@@ -659,7 +653,6 @@ color: var(--color_blanco);
     position: absolute;
     right:100px;
     top:80px;
-    width:275px;
     width: auto;
     height:40px;
     background-color: rgba(255, 166, 0, 0.673);
@@ -723,7 +716,6 @@ color: var(--color_blanco);
 
 .form__label{
     font-size: 20px;
-    color: rgb(54, 45, 45);
     color:white;
     font-weight: 700; 
     margin-bottom: 15px;
@@ -731,12 +723,9 @@ color: var(--color_blanco);
 }
 
 .form__campo{
-    border:2px solid rgba(0, 0, 255, 0.121);
     border-radius: 6px;
     margin-bottom: 20px;
     margin-top: 10px;
-
-    border-bottom: 2px solid black;  
     border: none;    
 }
 
@@ -746,7 +735,6 @@ color: var(--color_blanco);
     height: 40px;
     border: none;
     padding:10px;
-    font-size: 14px;
     font-weight: 600;
     outline: none;
     color:rgba(255, 255, 255, 0.951);
@@ -769,14 +757,11 @@ color: var(--color_blanco);
     
 .form__campo input:focus,
 .form__campo textarea:focus{
-    outline-color:rgba(206, 146, 6, 0.799);
     outline-color:rgba(206, 99, 6, 0.899); 
 }
 
 .form__campo textarea{
-    height: 100px; 
     height: 50px;  
-
 }
 .form__btn{
     display: flex;
@@ -784,7 +769,6 @@ color: var(--color_blanco);
 }
 .form__btn .btn{
     color:var(--color_blanco);
-    border: none;
     border:1px solid #693834;
     font-weight: 600;
     background-image: linear-gradient(120deg, #693834, rgba(253, 29, 29, 1));
@@ -837,7 +821,6 @@ color: var(--color_blanco);
     align-items: center;
     max-width: 1200px;
     height: 80px;
-    background-color:var(--bg_header);
     background-color: #2a2727;
 }
 .footer p{
