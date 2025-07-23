@@ -23,7 +23,6 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 55px;
-    /* color-scheme: dark; */
   }
 
 
@@ -49,11 +48,9 @@ header{
     padding:0 50px;
     z-index: 1;
     background-color: var(--bg_header);
-
     transform: translateY(-100%);
     opacity: 0;
-    animation: slideDown 1.5s ease-out forwards;
-    
+    animation: slideDown 1.5s ease-out forwards;   
 }
 
 @keyframes slideDown {
@@ -82,8 +79,7 @@ header{
     height:75px;
     cursor: pointer;
     border-radius: 50%;
-    animation: 3s cubic-bezier(.25, 1, .30, 1) circle-in-hesitate both;   
-    
+    animation: 3s cubic-bezier(.25, 1, .30, 1) circle-in-hesitate both;       
 }
 
 .logo:hover{
@@ -159,7 +155,7 @@ header{
     transform: translate(200%);
     transition: all 0.5s cubic-bezier(0.93, 0.02, 0.37);
     color:whitesmoke;
-    z-index: 120;                      /*----------------------------------------------------------ver---------------------*/
+    z-index: 120;                   
 }
 .card-carrito_title,
 .renderCart-p{
@@ -168,7 +164,7 @@ header{
 
 .card-carrito::-webkit-scrollbar {
     display: none;
-  }
+}
 
 .carrito-container {
     position: relative;
@@ -242,7 +238,6 @@ header{
     transition: all 0.5s ease;
     transition: all 0.5s ease-in-out;
 }
-
 
 /* *********************mostrar icono del menu+++++++++++++ */
 .open-menu{
@@ -324,14 +319,12 @@ header{
 .form__campo small{
     color:#ce4351;
     color:rgb(151, 16, 16);
-    /* max-width: 350px; */
     text-align: center;
     margin-top: 10px;
     display: none;
 }
 
 /* portada */
-
 .portada{ 
     position: relative;
     max-width: 1200px;
@@ -350,7 +343,6 @@ header{
     height: 100%;     
 }
 
-/* portada p */
 .portada p {
     max-width:1200px;
     position: absolute; 
@@ -570,7 +562,6 @@ color: var(--color_blanco);
     transition: all .3s ease-in-out;
 }
 
-
 .card__muebles .btn-carrito{
     background-color: var(--bg_header);
     padding:12px 18px; 
@@ -590,8 +581,7 @@ color: var(--color_blanco);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px; 
-  
+    padding-bottom: 20px;   
 }
 
 .muebles_btn button{
@@ -624,7 +614,6 @@ color: var(--color_blanco);
     margin: 15px 0;
     padding: 30px 20px;
     box-shadow: 1px 4px 12px 1px rgba(167, 165, 165, 0.448); 
-
 }
 .cart-prod img{
     width: 100px;
@@ -772,18 +761,7 @@ color: var(--color_blanco);
     background-color: transparent;    
 
 }
-/* --------------------------------------------- ver ------------------------------------- */
-.input-measure{ 
-   background-color: rgba(255, 235, 205, 0.347);
-   display: flex;
-   flex-direction: column;
-   padding:15px 10px ;
-   margin-top: 10px;
-   border: 2px solid red;
-   border-radius: 3px;
-   display: none;
 
-}
 .placeholder::placeholder{
     color: rgba(234, 231, 231, 0.697);
     font-weight: 500;
@@ -816,7 +794,6 @@ color: var(--color_blanco);
     line-height: 1em;
     border-radius: 50px;
     transition: all 2s ease-in-out;
-
 }
 .form__btn .btn:hover{
     background-image: linear-gradient(120deg, #a24f47,#6f0000);
@@ -918,7 +895,7 @@ color: var(--color_blanco);
     .navbar ul{
         background: linear-gradient( rgb(70, 10, 10) ,#bf2f2f);
         color:var(--color_blanco);
-        border: 2px solid firebrick;  /* cambiar  */
+        border: 2px solid firebrick; 
         height: calc(50vh - 75px);
         position: absolute;
         top:75px;
